@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" />
+    <script src="app.js"></script>
+    <title>DOM</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">Bookly</h1>
+                <p>Books for Geeks</p>
+                <form id="search-books">
+                    <input type="text" placeholder="Search books..." />
+                </form>
+            </div>
+        </header>
+        <div id="book-list">
+            <h2 class="title">Books to Read</h2>
+            <ul>
+                <li>
+                    <span class="name">The Stars My Destination</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Old Man’s War</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">The Moon is a Harsh Mistress</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Brave New World</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Childhood’s End</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">The Left Hand of Darkness</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Foundation</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Dune</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Neuromancer</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Hyperion</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Blindsight</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">1984</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+        <form id="add-book">
+            <input type="checkbox" id="hide" />
+            <label for="hide">Hide all books</label>
+            <input type="text" placeholder="Add a book..." />
+            <button>Add</button>
+        </form>
+
+        <div id="tabbed-content">
+            <ul class="tabs">
+                <li data-target="#about" class="active">About</li>
+                <li data-target="#contact">Contact</li>
+            </ul>
+            <div class="panel active" id="about">
+                <p>Content for about tab...</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id nunc porta urna ornare
+                    rhoncus. Ut convallis ante at.</p>
+            </div>
+            <div class="panel" id="contact">
+                <p>Content for contact tab...</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id nunc porta urna ornare
+                    rhoncus. Ut convallis ante at.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
